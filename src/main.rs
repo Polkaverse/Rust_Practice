@@ -1,3 +1,18 @@
+mod factorial;
+mod fibonacci;
+mod bubble_sort;
+
+fn main() {
+    factorial::fact();
+    fibonacci::fab();
+    bubble_sort::bub();
+}
+
+
+
+
+
+/*
 //mod print;
 mod varcon;
 
@@ -6,5 +21,4 @@ fn main() {
     //print::run();
     varcon::con();
 }
-
-
+*/
