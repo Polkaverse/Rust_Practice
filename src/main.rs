@@ -1,12 +1,20 @@
+#[macro_use]
+extern crate text_io;
+
 mod factorial;
 mod fibonacci;
 mod bubble_sort;
 mod Selection;
 mod insertion;
+mod slice;
+mod structure;
+mod method;
+mod enums;
+mod iflet;
 
 
 fn main() {
-    print!(" Factorial of 5 : ", );
+    /*print!(" Factorial of 5 : ", );
     factorial::fact();
 
     print!(" Fibonacci series : ", );
@@ -21,6 +29,24 @@ fn main() {
 
     print!(" \n Selection Sort : ");
     Selection::sel();
+
+    print!(" \n Slicing : ");
+    slice::sli();
+
+    print!(" \nStructure :  \n");
+    structure::struc();
+
+    print!(" \nMethod :  \n");
+    method::met();
+
+    print!(" \nEnums :  \n");
+    enums::enms();*/
+
+    print!("iflet :\n");
+    iflet::iflet();
+
+
+
 }
 
 
