@@ -9,6 +9,8 @@ mod insertion;
 mod slice;
 mod structure;
 mod method;
+mod enums;
+mod iflet;
 
 
 fn main() {
@@ -32,10 +34,17 @@ fn main() {
     slice::sli();
 
     print!(" \nStructure :  \n");
-    structure::struc();*/
+    structure::struc();
 
     print!(" \nMethod :  \n");
     method::met();
+
+    print!(" \nEnums :  \n");
+    enums::enms();*/
+
+    print!("iflet :\n");
+    iflet::iflet();
+
 
 
 }
