@@ -11,6 +11,11 @@ mod structure;
 mod method;
 mod enums;
 mod iflet;
+mod packmod;
+mod vector;
+mod enum2;
+mod string;
+mod hashmap;
 
 
 fn main() {
@@ -40,19 +45,30 @@ fn main() {
     method::met();
 
     print!(" \nEnums :  \n");
-    enums::enms();*/
+    enums::enms();
 
     print!("iflet :\n");
     iflet::iflet();
 
+    print!("\n\nPackages Crates And Modules : ");
+    packmod::pcm();
+
+    print!("\n\nVectors: ");
+    vector::vec();
+
+    print!("\n\nEnumerations with multiple types: ");
+    enum2::enum2();*/
+
+    print!("\n\nString : ");
+    string::string1();
+
+    print!("\n\nHashmap  :\n");
+    hashmap::hash();
+
+
 
 
 }
-
-
-
-
-
 /*
 //mod print;
 mod varcon;
