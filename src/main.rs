@@ -12,6 +12,8 @@ mod method;
 mod enums;
 mod iflet;
 mod packmod;
+mod vector;
+mod enum2;
 
 
 fn main() {
@@ -41,13 +43,21 @@ fn main() {
     method::met();
 
     print!(" \nEnums :  \n");
-    enums::enms();*/
+    enums::enms();
 
     print!("iflet :\n");
-    iflet::iflet();
+    iflet::iflet();*/
 
-//    print!("\n\nPackages Crates And Modules : ");
-//    packmod::pcm();
+    print!("\n\nPackages Crates And Modules : ");
+    packmod::pcm();
+
+    print!("\n\nVectors: ");
+    vector::vec();
+
+//    print!("\n\nEnumerations with multiple types: ");
+//    enum2::enum2();
+
+
 
 
 }
