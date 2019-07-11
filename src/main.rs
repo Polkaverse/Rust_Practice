@@ -54,8 +54,8 @@ fn main() {
     print!("\n\nVectors: ");
     vector::vec();
 
-//    print!("\n\nEnumerations with multiple types: ");
-//    enum2::enum2();
+    print!("\n\nEnumerations with multiple types: ");
+    enum2::enum2();
 
 
 
