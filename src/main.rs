@@ -14,6 +14,8 @@ mod iflet;
 mod packmod;
 mod vector;
 mod enum2;
+mod string;
+mod hashmap;
 
 
 fn main() {
@@ -46,7 +48,7 @@ fn main() {
     enums::enms();
 
     print!("iflet :\n");
-    iflet::iflet();*/
+    iflet::iflet();
 
     print!("\n\nPackages Crates And Modules : ");
     packmod::pcm();
@@ -55,7 +57,13 @@ fn main() {
     vector::vec();
 
     print!("\n\nEnumerations with multiple types: ");
-    enum2::enum2();
+    enum2::enum2();*/
+
+    print!("\n\nString : ");
+    string::string1();
+
+    print!("\n\nHashmap  :\n");
+    hashmap::hash();
 
 
 
