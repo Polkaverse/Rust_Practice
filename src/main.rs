@@ -16,9 +16,32 @@ mod vector;
 mod enum2;
 mod string;
 mod hashmap;
-
+mod errorhand;
+mod guessgame;
+mod duplicate;
+mod generics;
+mod generic2;
 
 fn main() {
+
+    print!("\n\nGuess Game  :\n");
+    guessgame::guess();
+
+
+    print!("\n\nAvoid Duplicasy Code   :\n");
+    duplicate::dupl();
+
+    print!("\n\nError Handling  :\n");
+    errorhand::errorhand();
+
+    print!("\n\nGenerics  :\n");
+    generics::generic();
+
+    print!("\n\nGenerics 2 :\n");
+    generic2::traitt();
+
+
+
     /*print!(" Factorial of 5 : ", );
     factorial::fact();
 
@@ -57,16 +80,13 @@ fn main() {
     vector::vec();
 
     print!("\n\nEnumerations with multiple types: ");
-    enum2::enum2();*/
+    enum2::enum2();
 
     print!("\n\nString : ");
     string::string1();
 
     print!("\n\nHashmap  :\n");
-    hashmap::hash();
-
-
-
+    hashmap::hash();*/
 
 }
 /*
